@@ -1,0 +1,18 @@
+lib/ — Compile-time JAR Dependencies
+=====================================
+Place third-party JAR files here for Eclipse compile-time resolution.
+
+REQUIRED JAR:
+  mysql-connector-java-8.0.33.jar
+    Download: https://dev.mysql.com/downloads/connector/j/
+    Purpose : JDBC driver used by com.automobile.db.DBConnection
+
+IMPORTANT — DUAL PLACEMENT RULE:
+  Any JAR placed here (lib/) is for Eclipse compile-time only.
+  You MUST ALSO copy it to:
+    WebContent/WEB-INF/lib/
+  so Tomcat can find it at runtime when your WAR is deployed.
+
+After adding JARs:
+  Right-click project → Build Path → Configure Build Path
+  → Libraries tab → verify the JAR appears and is checked.

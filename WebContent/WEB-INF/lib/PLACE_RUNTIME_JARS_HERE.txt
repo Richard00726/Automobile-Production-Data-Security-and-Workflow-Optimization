@@ -1,0 +1,10 @@
+WebContent/WEB-INF/lib/ — Runtime JAR Dependencies
+====================================================
+JARs placed here are automatically bundled inside the WAR file
+and loaded by Tomcat at runtime.
+
+REQUIRED:
+  mysql-connector-java-8.0.33.jar  (copy from project root lib/ folder)
+
+DO NOT place servlet-api.jar here — Tomcat provides it; including it
+causes class-loading conflicts.
