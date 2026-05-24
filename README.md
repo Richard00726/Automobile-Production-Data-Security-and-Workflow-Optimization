@@ -54,4 +54,7 @@ Contact the developer for login credentials and demo access.
 - Internship : Gradtwin Services — Full Stack Developer Java Domain
 
 ## License
-This project is developed for academic purposes only.
+This project is independently developed by Infant Richart L 
+as part of B.Tech final year project at 
+Anjalai Ammal Mahalingam Engineering College.
+All rights reserved © 2026 Infant Richart L
